@@ -48,7 +48,7 @@ class Employee(User):
         self.designation=designation
         self.salary=salary
 
-Emp= Employee("Rahim","r@gmail.com",136542368,"Dhaka",23,"chef",12000) 
+Emp= Employee("Emon","emon@gmail.com",136542368,"Dhaka",23,"chef",1200000) 
 
 class Admin(User):
     def __init__(self, name, phone, email, address):
